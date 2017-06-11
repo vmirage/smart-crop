@@ -47,7 +47,7 @@ function cropVertical(matrix, center, width, height, method) {
   var newHeight = height / width * matrix.width();
   var top = Math.max(Math.round(center.y - newHeight / 2), 0);
   var bottom = Math.min(top + newHeight, matrix.height());
-  top = top - newHeight();
+  top = bottom - newHeight;
   
   return {
     method: method,

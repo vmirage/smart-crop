@@ -18,7 +18,7 @@
   "homepage": "https://github.com/kesla/smart-crop",
   "dependencies": {
     "basic-queue": "^1.0.1",
-    "opencv": "^0.7.0"
+    "opencv": "^6.0.0"
   },
   "devDependencies": {
     "tape": "^3.5.0"
